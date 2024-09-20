@@ -1,11 +1,11 @@
 import './App.css'
-import { List } from './components/List'
 import { WrapperList } from './components/WrapperList'
+import { RandomComponent } from './components/RandomComponent'
 function App() {
   return (
     <>
       <WrapperList>
-          <List/>
+          <RandomComponent />
       </WrapperList>
     </>
   )
