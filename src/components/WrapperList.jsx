@@ -2,7 +2,7 @@ export const WrapperList = (props) => {
     const { children } = props;
     return (
         <div>
-            <h2>Lista de compras</h2>
+            <h1>HOLA DESDE VITE</h1>
             <div>
                 {children}
             </div>

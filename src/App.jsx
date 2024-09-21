@@ -1,11 +1,11 @@
 import './App.css'
-import { List } from './components/List'
 import { WrapperList } from './components/WrapperList'
+import { CompWithProps } from './components/CompWithProps';
 function App() {
   return (
     <>
       <WrapperList>
-          <List/>
+          <CompWithProps />
       </WrapperList>
     </>
   )
